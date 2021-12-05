@@ -1,1 +1,4 @@
-﻿  factory_pattern.vcxproj -> G:\the_way_coder_learn\vs2019_project\c++\design_mode\c++_design_mode\Debug\factory_pattern.exe
+﻿  factory_pattern.h
+  simple_factory_model.cpp
+  正在生成代码...
+  factory_pattern.vcxproj -> G:\the_way_programmer_learn\vs2019\c++\design_mode\c++_design_mode\Debug\factory_pattern.exe
