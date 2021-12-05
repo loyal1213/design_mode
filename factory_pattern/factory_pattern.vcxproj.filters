@@ -21,9 +21,15 @@
     <ClCompile Include="simple_factory_model.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="factory_method_pattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="simple_factory_model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="factory_method_pattern.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

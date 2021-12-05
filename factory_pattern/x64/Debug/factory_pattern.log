@@ -1,0 +1,27 @@
+﻿  factory_method_pattern.cpp
+  main.cpp
+  simple_factory_model.cpp
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\factory_method_pattern.h(16,12): error C2011: “Tank”:“class”类型重定义
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(22): message : 参见“Tank”的声明
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\factory_method_pattern.h(22,14): error C2011: “Tank56”:“class”类型重定义
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(28): message : 参见“Tank56”的声明
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(4,9): error C2027: 使用了未定义类型“Tank56”
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(28): message : 参见“Tank56”的声明
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(4,18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(4,47): error C2550: “{ctor}”: 构造函数初始值设定项列表只能在构造函数定义中使用
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(5,1): warning C4508: “{ctor}”: 函数应返回一个值；假定“void”返回类型
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(7,28): error C2027: 使用了未定义类型“Tank56”
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(28): message : 参见“Tank56”的声明
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(12,47): error C2027: 使用了未定义类型“Tank”
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(22): message : 参见“Tank”的声明
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(22,50): error C2027: 使用了未定义类型“Tank56”
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(28): message : 参见“Tank56”的声明
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(36,8): error C2027: 使用了未定义类型“Tank”
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(22): message : 参见“Tank”的声明
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(37,8): error C2027: 使用了未定义类型“Tank”
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(22): message : 参见“Tank”的声明
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(41,16): warning C4150: 删除指向不完整“Tank”类型的指针；没有调用析构函数
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(22): message : 参见“Tank”的声明
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.cpp(46,16): warning C4150: 删除指向不完整“Tank”类型的指针；没有调用析构函数
+G:\the_way_programmer_learn\vs2019\c++\design_mode\factory_pattern\simple_factory_model.h(22): message : 参见“Tank”的声明
+  正在生成代码...

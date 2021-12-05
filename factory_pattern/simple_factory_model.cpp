@@ -1,13 +1,13 @@
 #include "simple_factory_model.h"
+#include "factory_method_pattern.h"
 
 Tank56::Tank56() :Tank(), m_strType("Tank56") {
 }
 
-const std::string& Tank56::type() {
+const std::string& Tank56::Type(){
 	// TODO: 在此处插入 return 语句
-	std::cout << m_strType.data() << std::endl;
-	return m_strType;
 }
+
 
 Tank96::Tank96() :Tank(), m_strType("Tank96") {}
 
