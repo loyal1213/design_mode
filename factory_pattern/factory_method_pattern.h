@@ -42,8 +42,20 @@ private:
 };
 
 // 抽象工厂类，提供一个创建接口
-class MissleFactory {
+class MissileFactory {
 public:
 	// 提供创建产品实例的接口，返回抽象产品类
-	virtual Missile* createMissle() = 0;
+	virtual Missile* createMissile() = 0;
+};
+
+//具体的创建工厂类，使用抽象工厂类提供的接口，去创建具体的产品实例
+class Missile56Factory : public MissileFactory {
+public:
+	Missile* createMissile() override;
+};
+
+//具体的创建工厂类，使用抽象工厂类提供的接口，去创建具体的产品实例
+class Missile96Factory : public MissileFactory {
+public:
+	Missile* createMissile() override;
 };

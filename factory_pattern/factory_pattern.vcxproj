@@ -139,11 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="abstract_factory_pattern.cpp" />
     <ClCompile Include="factory_method_pattern.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="simple_factory_model.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="abstract_factory_pattern.h" />
     <ClInclude Include="factory_method_pattern.h" />
     <ClInclude Include="simple_factory_model.h" />
   </ItemGroup>

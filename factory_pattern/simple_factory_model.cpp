@@ -4,8 +4,11 @@
 Tank56::Tank56() :Tank(), m_strType("Tank56") {
 }
 
-const std::string& Tank56::Type(){
+const std::string& Tank56::type()
+{
 	// TODO: 在此处插入 return 语句
+	std::cout << m_strType.data() << std::endl;
+	return m_strType;
 }
 
 
@@ -26,11 +29,8 @@ Tank* TankFactory::createTank(Tank_Type type) {
 }
 
 int test_simple_factory() {
-	std::cout << "Hello World!\n";
 	TankFactory* factory = new TankFactory();
-
 	Tank* tank56 = factory->createTank(Tank_Type::Tank_Type_56);
-
 	Tank* tank96 = factory->createTank(Tank_Type::Tank_Type_96);
 
 	tank56->type();
