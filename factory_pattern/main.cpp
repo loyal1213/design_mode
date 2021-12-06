@@ -1,6 +1,16 @@
 #include <iostream>
-
+#include "simple_factory_model.h"
+#include "factory_method_pattern.h"
 int main() {
+	// std::cout << "this is sample example ..." << std::endl;
 
-	std::cout << "this is sample example ..." << std::endl;
+	// 1. 测试简单工厂模式
+	test_simple_factory_pattern();
+
+	// 2. 测试工厂方法模式
+
+
+	// 3. 测试抽象工厂模式
+
+
 }

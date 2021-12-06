@@ -95,3 +95,5 @@ class BlackFactory : public Factory
 		return new BlackPants();
 	}
 };
+
+int test_abstract_factory_pattern();

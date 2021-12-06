@@ -51,3 +51,4 @@ public:
 	Tank* createTank(Tank_Type type);
 };
 
+int test_simple_factory_pattern();

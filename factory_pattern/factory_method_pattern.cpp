@@ -27,7 +27,7 @@ Missile* Missile96Factory::createMissile() {
 }
 
 
-int test_factory_method(){
+int test_factory_method_pattern(){
 	MissileFactory* factory56 = new Missile56Factory();
 	Missile* Missile56 = factory56->createMissile();
 	Missile56->type();

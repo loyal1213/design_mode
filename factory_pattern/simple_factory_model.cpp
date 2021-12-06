@@ -28,7 +28,7 @@ Tank* TankFactory::createTank(Tank_Type type) {
 	}
 }
 
-int test_simple_factory() {
+int test_simple_factory_pattern() {
 	TankFactory* factory = new TankFactory();
 	Tank* tank56 = factory->createTank(Tank_Type::Tank_Type_56);
 	Tank* tank96 = factory->createTank(Tank_Type::Tank_Type_96);

@@ -59,3 +59,6 @@ class Missile96Factory : public MissileFactory {
 public:
 	Missile* createMissile() override;
 };
+
+
+int test_factory_method_pattern();
